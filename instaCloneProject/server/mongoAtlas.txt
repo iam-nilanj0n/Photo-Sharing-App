@@ -1,0 +1,3 @@
+username= iamNilanjan
+password= instaClone
+dbName = InstacloneDB
