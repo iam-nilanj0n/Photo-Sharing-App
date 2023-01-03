@@ -1,0 +1,73 @@
+.div{
+    height: 100vh;
+    width: 100vw;
+}
+
+.form{
+    height: auto;
+    width: 50vw;
+    background-color: rgb(214, 172, 253);
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    margin-left: 25vw;
+}
+label{
+    margin: 0.5vh 0;
+}
+.error{
+    height: 10px;
+    font-weight: bolder;
+    color: red;
+}
+button{
+    width: 10vw;
+    height: 5vh;    
+}
+.ImageContainer{
+    width: 60vw;
+    margin: 5vh 0 5vh 20vw;
+    border: 2px solid rgb(3, 4, 62);
+}
+.ImageContainer h2{
+    margin: 2vh 0 5vh 20vw;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.postImage {
+    height: 60vh;
+    width: 60vw;
+}
+
+.imagePara{
+    margin: 5vh 0 5vh 40vw;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: rgb(14, 14, 46);
+}
+
+.submit{
+    width: 8vw;
+    height: 6vh;
+    background-color: rgb(54, 66, 177);
+    color: aliceblue;
+    font-size: 1.1rem;
+    border: 0;
+    border-radius: 2vh;
+    margin:3vh 0 0 20vw;
+}
+
+.submit:hover {
+    background-color: rgb(107, 4, 45) ;
+    font-weight: bolder;
+}
+
+.message{
+    height: 5vh;
+    width: auto;
+    color: rgb(255, 25, 0);
+    font-weight: bolder;
+    margin: 2vh 0 0 15vw;
+    font-size: 1.5rem;
+}

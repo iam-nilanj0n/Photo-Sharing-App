@@ -1,0 +1,83 @@
+.card{
+    height: auto;
+    width: 40vw;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 5vh 25vw;
+}
+.CardpicContainer{
+    height: calc(40vh - 1px);
+    width: calc(40vw - 1px);
+    background-color: 'white';
+}
+.cardPic{
+    height: calc(40vh - 2px);
+    width: calc(40vw - 2px);
+    border: 1px solid #707070;
+}
+
+.topSection{
+    display: flex;
+    flex-direction: row;
+}
+.nameNlocation{
+    width: 15vw;
+    margin: 2vh 0 2vh 1.5vw;
+}
+.name{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.likeNshare{
+    display: flex;
+    flex-direction: row;
+}
+.likeNshare button{
+    width: auto;
+}
+.buttonSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.dotPic{
+    margin-left: 20vw;
+}
+.buttonSection{
+    margin: 1vh 0 1vh 1.5vw;
+}
+.date{
+    margin-left: 25vw;
+}
+.likes{
+    margin: 0 0 0 1.9vw;
+}
+.description{
+    margin: 1vh 0 2vh 1.5vw;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.heart{
+    margin-right: 1vw;
+
+}
+.heart:hover{
+    background-color: red;
+}
+.bottomSection{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+.deletePost {
+    margin: 0 0 2vh 17vw;
+    width: 5vw;
+    font-weight: bolder;
+    color: rgb(255, 47, 0);
+}
+
+.deletePost:hover{
+    font-size: 1.2rem;
+    background-color: rgb(255, 47, 0);
+    color: aquamarine;
+}
